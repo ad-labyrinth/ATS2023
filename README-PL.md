@@ -83,7 +83,7 @@ Odnośnik: [Responder source](https://github.com/SpiderLabs/Responder)
 
 #### Przypadek 5: S7comm Malformed PDU
 
-W tym przypadku istnieje skrypt dostępny w tym repozytorium - wystarczy go uruchomić:
+W tym przypadku istnieje [skrypt](https://github.com/ad-labyrinth/ATS2023/blob/main/scripts/S7_Malformed_PDU.py) dostępny w tym repozytorium - wystarczy go uruchomić:
 
 ```
 cd S7_malformed_PDU
