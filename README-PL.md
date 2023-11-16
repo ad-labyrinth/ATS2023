@@ -118,6 +118,7 @@ Wyszukaj dodatkową ścieżkę internetową:
 ```
 dirsearch --wordlists=/home/user/wordlists/directories.txt -u https://<Point IP>/ 
 ```
+Odnośnik: [dirsearch](https://github.com/maurosoria/dirsearch)
 3. Skonfiguruj listę słów
 ```
 cd wordlists
