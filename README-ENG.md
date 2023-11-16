@@ -115,6 +115,7 @@ Search for additioanl web path:
 ```
 dirsearch --wordlists=/home/user/wordlists/directories.txt -u https://<Point IP>/ 
 ```
+Reference: [dirsearch](https://github.com/maurosoria/dirsearch)
 3. Setup the wordlist
 ```
 cd wordlists
