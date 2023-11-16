@@ -37,7 +37,7 @@ Ze względu na fakt, że dziś używamy platformy Labyrinth Deception jako przyk
 Ponadto udostępniamy transkrypcję wszystkich poleceń, aby ułatwić korzystanie z nich. Nawet jeśli przegapiłeś jakąkolwiek część prezentacji, możesz skorzystać z tych notatek, aby kontynuować ćwiczenia.
 
 > [!IMPORTANT]
-> **<any data>** wskazuje, że należy wkleić własne dane, które są wymienione wewnątrz nawiasów.
+> **\<any data>** wskazuje, że należy wkleić własne dane, które są wymienione wewnątrz nawiasów.
 >
 > **[options]** wskazuje, że ta część (lub części) polecenia jest opcjonalna i może zostać pominięta. Wybór wielu opcji jest wyświetlany za pomocą / (ukośnika).
 
