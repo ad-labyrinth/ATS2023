@@ -81,7 +81,7 @@ sudo python2 Responder.py -I eth0
 Reference: [Responder source](https://github.com/SpiderLabs/Responder)
 
 #### Case 5: S7comm Malformed PDU
-For this case there is a script that is available in this repo:
+For this case there is a [script](https://github.com/ad-labyrinth/ATS2023/blob/main/scripts/S7_Malformed_PDU.py) that is available in this repo.
 Simply run it: 
 ```
 cd S7_malformed_PDU
