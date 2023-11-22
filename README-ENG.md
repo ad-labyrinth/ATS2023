@@ -160,11 +160,11 @@ less <file>
 4. Perform S7comm CPU control request
 ```
 cd S7_scripts
-python2 s7300stop.py <S7-300 IP adress>
+python2 s7300stop.py <S7-300 IP address>
 ```
 In addition, you can try to start CPU start message:
 ```
-python2 s7300cpustart.py <S7-300 IP adress>
+python2 s7300cpustart.py <S7-300 IP address>
 ```
 Reference: [exploits source](https://github.com/hackerhouse-opensource/exploits)
 
