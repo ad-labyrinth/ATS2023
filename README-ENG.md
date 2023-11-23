@@ -3,8 +3,10 @@
 All you may need for the workshop is available in this repository.
 
 ## Getting the access
+
 To begin with, please navigate to our test stand:
 1. **Credentials to the AdminVM**
+
 You may use any web browser of your choice.
 ```
 URL: 
@@ -13,6 +15,7 @@ Password:
 ```
 
 2. **Credentials to the attacking host**
+
 From this host you will perform your attacks. Please use SSH and following credentials:
 ```
 Host:
@@ -21,7 +24,8 @@ Password:
 ```
 
 ## Terminology that will be used today
-Due to the fact that today we are using Labyrinth Deception Platform as the example of the deception platfroms, it has its own therms that will be actively used today:
+
+Due to the fact that today we are using Labyrinth Deception Platform as the example of the deception platfroms, it has its own terminology that will be actively used today:
 1. **Point** = network decoy, lure, deceptive network services.
 > [!NOTE]
 > Points ARE NOT separate virtual machines.
@@ -33,6 +37,7 @@ Due to the fact that today we are using Labyrinth Deception Platform as the exam
 
 
 ## Commands transcript
+
 In addition, we provide the transcript of all commands for your ease of use. Even if you missed any part of the presentation, feel free to use those notes to continue exploring.
 
 > [!IMPORTANT]
@@ -103,6 +108,7 @@ curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd
 sudo nmap -sS -sC -p80,443 <Honeynet IP> -vvv
 ```
 2. Explore found web server
+
 Perform LFI
 ```
 curl --insecure https://<Point IP>/\?filename\=../../../etc/passwd 
@@ -112,7 +118,7 @@ or
 curl --insecure https://<Point IP>/\?filename\=../../../etc/shadow 
 ```
 
-Search for additioanl web path:
+Search for additional web path:
 ```
 dirsearch --wordlists=/home/user/wordlists/directories.txt -u https://<Point IP>/ 
 ```
