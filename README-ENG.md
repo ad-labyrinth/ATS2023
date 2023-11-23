@@ -143,6 +143,7 @@ ssh <user>@warrior.labyrinth.tech
 sudo nmap -sS -sC -p21 -T4 <Honeynet subnet> -vvv 
 ```
 2. Connect to the FTP
+
 Try to connect anonymously:
 ```
 ftp <FTP IP address>
