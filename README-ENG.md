@@ -9,18 +9,18 @@ To begin with, please navigate to our test stand:
 
 You may use any web browser of your choice.
 ```
-URL: 
-Username:
-Password:  
+URL: https://demo.labyrinth.tech/
+Username: ats
+Password: PH5sz%3K7Cy
 ```
 
 2. **Credentials to the attacking host**
 
 From this host you will perform your attacks. Please use SSH and following credentials:
 ```
-Host:
-Username:
-Password:
+Host: warrior.labyrinth.tech
+Username: user
+Password: uKm9(9d3ZU3x
 ```
 
 ## Terminology that will be used today
