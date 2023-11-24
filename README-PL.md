@@ -8,17 +8,18 @@ Na początek przejdź do naszego stanowiska testowego:
 
 1. **Poświadczenia do AdminVM** - możesz użyć dowolnej przeglądarki internetowej:
 ```
-URL: 
-Username:
-Password:  
+URL: https://demo.labyrinth.tech/
+Username: ats
+Password: PH5sz%3K7Cy
 ```
 2. **Poświadczenia do atakującego hosta** - z tego hosta będziesz przeprowadzać ataki. Użyj SSH i następujących
 Poświadczeń: 
 ```
-Host:
-Username:
-Password:
+Host: warrior.labyrinth.tech
+Username: user
+Password: uKm9(9d3ZU3x
 ```
+
 ## Terminologia, która będzie dzisiaj używana
 Ze względu na fakt, że dziś używamy platformy Labyrinth Deception jako przykładu platformy cyber decepcji, ma ona swoje własne terminy, które będą dziś aktywnie wykorzystywane::
 
